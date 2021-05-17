@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header-right-info .admin-name {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+    margin-left: 2px;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+.menu-switcher-pro button {
+    background: 0 0;
+    border: none;
+    float: left;
+}
+.header-right-info ul.header-right-menu li .author-log {
+    left: auto;
+    right: 0;
+}
+.footer-copyright-area {
+    background: #026da1;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.breadcome-list {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.header-top-area {
+    background: #026da1;
+}
+.menu-switcher-pro .btn-info:focus, .menu-switcher-pro .btn-info:active, .menu-switcher-pro .btn-info:hover, .header-drl-controller-btn.btn-info:active:focus{
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+.sidebar-nav .metismenu a{
+    font-size: 14px;
+}
+.sidebar-nav .metismenu li .icon-wrap{
+    color: #026da1;
+}
+.bar-button-pro {
+    margin: 13px 0 13px 13px;
+    font-size: 20px;
+    color: #fff;
+}
+.all-content-wrapper {
+    margin-left: 225px;
+    transition: all .3s;
+}
+
+@media (max-width: 767px){
+    .breadcome-list{
+    display: none;
+}
+
+}
